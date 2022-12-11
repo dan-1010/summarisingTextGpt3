@@ -1,1 +1,2 @@
 # summarisingTextGpt3
+This program uses the OpenAI API to generate a summary of a given text file. It first reads the API key from a file, then uses the openai.Completion.create() method to generate a summary of the text file specified in the filepath variable. The summary is returned as a string.
